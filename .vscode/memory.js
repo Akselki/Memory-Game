@@ -113,7 +113,7 @@ function populateField(myCardSet) {
 		let newTile = document.createElement("div");
 		let newCard = document.createElement("img");
 		let cover = document.createElement("img");
-		newTile.setAttribute("class", boardClass );
+		newTile.setAttribute("class", boardClass);
 		let imageURL = "img/" + card.card1 + ".jpg";
 		cover.setAttribute("src", "img/cover.png");
 		cover.setAttribute("class", "covered");
